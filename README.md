@@ -1,6 +1,3 @@
 hello welcome to rockpaperscissors
-<<<<<<< HEAD
-no branch added
-=======
+no branch added </br>
 hello another branch added
->>>>>>> feature1
