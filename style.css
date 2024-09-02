@@ -1,0 +1,146 @@
+body{
+    background-image:url("bckgrndimg.avif") ;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover; /* Scales the image to cover the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed;
+    
+}
+.div1{
+    width: 18rem;
+    height: 16rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+    background-image:url(bckgrndimg1.webp);
+
+}
+.credentialsdiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90px;
+}
+input[type="text"], input[type="password"] {
+    width: 200px; 
+    height: 30px; 
+    
+}
+
+h1{
+    color:white;
+    font-size: 45px;
+    
+}
+
+#titlediv{
+    display:flex;
+    justify-content: center
+    align-items: center;
+
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+ 
+    margin-top: 20px;
+}
+#extradiv{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    
+    height: 40px;
+    width: 200px;
+    background-image:url("bckgrndimg.avif") ;
+    font-size: large;
+    color: antiquewhite;
+}
+
+.gameimg{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-width: 5px;
+}
+img{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    
+}
+.gameimg:hover{ 
+    cursor: pointer;
+    background-color: #000;
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+.scorecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    color: white;
+    gap: 30px;
+}
+#userscore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+#compscore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+#usercount,#compcount{
+    font-size: 50px;
+}
+#player{
+    font-size: 40px;
+}
+#resultdisplay{
+    background-color: rgb(234, 95, 211);
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 25px;
+    border-radius: 5px;
+}
+@media (max-width: 650px) {
+    .container{
+        flex-direction: column;
+    }
+}
+@media (max-width: 450px) {
+    #extradiv{
+        flex-direction: column;
+    }
+}
